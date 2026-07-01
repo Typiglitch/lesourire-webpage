@@ -54,8 +54,21 @@ body{
     content:"";
     position:absolute;
     inset:0 0 auto 0;
-    height:118px;
-    background:linear-gradient(135deg, #f4fff1 0%, #dff7d7 56%, #c8edb6 100%);
+    height:180px;
+
+    background:
+        linear-gradient(
+            to bottom,
+            rgba(255,255,255,0) 45%,
+            rgba(255,255,255,.55) 75%,
+            rgba(255,255,255,1) 100%
+        ),
+        url("background.jpg");
+
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+
     z-index:0;
 }
 
